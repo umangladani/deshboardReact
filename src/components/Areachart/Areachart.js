@@ -14,6 +14,7 @@ const Areachart = (props) => {
         >
           {props.chartData.analysis}
         </p>
+        <></>
         <ResponsiveContainer width="99%" aspect={3}>
           <AreaChart width={730} height={400} data={props.chartData.data}>
             <Area type="monotone" dataKey={props.dataKey} stroke={props.borderColor} fillOpacity={1} fill={props.gradientColor} />
